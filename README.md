@@ -7,8 +7,8 @@ First create a ScreenManager instance and then attach Screens to it:
 
   	screenManager = new ScreenManager();
 		
-		screenManager.addScreen(new HomeScreen(), HOMESCREEN);
-		screenManager.addScreen(new AboutScreen(), ABOUTSCREEN);
+	screenManager.addScreen(new HomeScreen(), HOMESCREEN);
+	screenManager.addScreen(new AboutScreen(), ABOUTSCREEN);
 
 where HomeScreen and AboutScreen are classes that extends the Screen class. Inside Screen classes you can call the method ```navigateTo(String screenName)``` which is used to navigate to the specified screen.
 
